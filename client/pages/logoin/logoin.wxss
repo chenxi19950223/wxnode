@@ -1,0 +1,119 @@
+/* pages/ways/ways.wxss */
+/* top bingo */
+page {  
+  background-color: #fbfcfa;  
+} 
+.top-cx{
+  width: 100%;
+  height: 65rpx;
+  background: #82c769;
+  padding-top:23rpx; 
+  position: relative;
+  text-align: center;
+  color: #fff;
+  border-bottom: 1rpx #ececec solid;
+  margin-bottom: 80rpx;
+}
+/* top end */
+/* portrait bingo */
+.portrait-logoin{
+  width: 222rpx;
+  height: 222rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 3rpx #89573c solid;
+  display: block;
+}
+.username-logoin{
+  width: 663rpx;
+  height: 70rpx;
+  font-size: 28rpx;
+  margin: 54rpx auto 28rpx;
+  border: 2rpx #d2d2d2 solid;
+  border-radius: 50rpx;
+}
+.username-logoin image{
+  width: 36rpx;
+  height: 42rpx;
+  display: block;
+  margin: 13rpx 22rpx 0 19rpx;
+  float: left;
+}
+.username-logoin input{
+  -webkit-box-flex: 1;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-radius: 0 70rpx 70rpx 0;
+}
+.logoin-cx{
+  width: 665rpx;
+  height: 72rpx;
+  border-radius: 70rpx;
+  background: #ff9d04;
+  line-height: 72rpx;
+  color: #fff;
+}
+.hide{
+ display: none;
+}
+.reg-go{
+  width: 665rpx;
+  height: 72rpx;
+  border-radius: 70rpx;
+  background: #3796da;
+  line-height: 72rpx;
+  color: #fff;
+  margin-top: 30rpx;
+}
+.forgot-password{
+  display: block;
+  width: 665rpx;
+  margin: 0 auto;
+  text-align: right;
+  color: #3796da;
+  font-size: 23rpx;
+  text-decoration: underline;
+}
+/* portrait end */
+/* the bingo */
+.the-logoin-hr{
+  width: 665rpx;
+  position: relative;
+  height: 1rpx;
+  background: #878787;
+  margin:  200rpx auto 0;
+}
+.the-logoin-hr text{
+  display: block;
+  width: 250rpx;
+  font-size: 28rpx;
+  color: #878787;
+  position: absolute;
+  top: -55rpx;
+  background: #fff;
+  left: 200rpx;
+  text-align: center;
+}
+.the-logoin{
+  width: 576rpx;
+  height: 147rpx;
+  margin: 200rpx auto 40rpx;
+}
+.the-logoin view{
+  width: 100rpx;
+  height: 147rpx;
+  margin:0 45rpx 0;
+  float: left;
+}
+.the-logoin view image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.the-logoin view text{
+  display: block;
+  width: 100%;
+  font-size: 20rpx;
+  color: #878787;
+  text-align: center;
+}
+/* the end */

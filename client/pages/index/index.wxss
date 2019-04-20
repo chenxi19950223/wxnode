@@ -1,0 +1,126 @@
+/**index.wxss**/
+/* top bingo */
+page {  
+  background-color: #fbfcfa;  
+} 
+.top-pp{
+  width: 100%;
+  height: 65rpx;
+  background: #82c769;
+  padding-top:23rpx; 
+}
+.img1{
+  width: 28rpx;
+  height: 40rpx;
+  float: left;
+  margin-right: 14rpx;
+}
+.ditu{
+  width: auto;
+  height: 40rpx;
+  overflow: hidden;
+  float: left;
+  margin-left:17rpx; 
+  position: relative;
+}
+.dizhi{
+  font-size: 26rpx;
+  color: #fff;
+  display: block;
+  margin-top: 10rpx;
+  float: left;
+}
+.title-cx{
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  left: 300rpx;
+}
+.img2{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  margin-right: 15rpx;
+}
+/* top end */
+
+.prize-cx{
+  width: 100%;
+  height: 254rpx;
+}
+
+/* service bingo */
+.cla-cx{
+  width: 100%;
+  height: 434rpx;
+  margin-top: 51rpx;
+}
+.cla-cx view{
+  margin-left: 44rpx;
+  width: 142rpx;
+  height: 434rpx;
+  float: left;
+  margin-right: 70rpx;
+}
+.cla-cx view:last-child{
+  margin-right: 44rpx
+}
+.cla-cx view div{
+  display: block;
+  width: 142rpx;
+  height: 175rpx;
+  margin-bottom: 34rpx;
+}
+.cla-cx view div image{
+  width: 142rpx;
+  height: 142rpx;
+}
+.cla-cx view div text{
+  width: 142rpx;
+  height: 30rpx;
+  display: block;
+  text-align: center;
+  font-size: 26rpx;
+}
+/* service end */
+
+/* host bingo */
+.host-cx{
+  width: 100%;
+  height: 62rpx;
+  padding-top: 20rpx;
+  background: #ebebeb;
+}
+.host-cx view{
+  width: 50%;
+  float: left;
+}
+.host-cx view:first-child image{
+  width: 30rpx;
+  height: 37rpx;
+  margin: 0 0 0 16rpx;
+  float: left;
+}
+.host-cx view:first-child text{
+  font-size:30rpx;
+  height: 37rpx;
+  line-height: 37rpx;
+  display: block;
+  text-indent: 21rpx; 
+  float: left;
+  color: #000;
+}
+.host-cx view image{
+  width: 37rpx;
+  height: 37rpx;
+  float: right;
+  margin-right: 16rpx;
+}
+.host-cx view text{
+  font-size: 24rpx;
+  float: right;
+  margin-right: 12rpx;
+  color: #65ba45;
+}
+
+/* host end */

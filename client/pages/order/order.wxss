@@ -1,0 +1,137 @@
+/* pages/order/order.wxss */
+/* top bingo */
+page {  
+  background-color: #fbfcfa;  
+}  
+.top-cx{
+  width: 100%;
+  height: 65rpx;
+  background: #82c769;
+  padding-top:23rpx; 
+  position: relative;
+}
+.top-cx view{
+  width: 100%;
+  height: 65rpx;
+  text-align: center;
+  color: #fff;
+}
+.top-cx image{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 56rpx;
+  top: 25rpx;
+}
+/* top end */
+/* list bingo */
+.order-cx{
+  width: 718rpx;
+  height: 80rpx;
+  margin: 34rpx auto 30rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #fff;
+  font-size:28rpx; 
+}
+.order-all{
+  width: 233rpx;
+  float: left;
+  border-right: 1rpx #949e8f solid;
+  height: 80rpx;
+  border-radius: 40rpx 0 0 40rpx;
+  background: #7ac360;
+}
+
+.order-complete{
+  width: 239rpx;
+  float: left;
+  border-right: 1rpx #949e8f solid;
+  height: 80rpx;
+  background: #7ac360;
+}
+.order-unfi{
+  width: 234rpx;
+  float: left;
+  height: 80rpx;
+  border-radius:0 40rpx  40rpx 0;
+  background: #7ac360;
+}
+.back{
+  background: #e6a415;
+}
+/* list end */
+.order-details{
+  width: 721rpx;
+  height: 233rpx;
+  border: 1rpx #acadab solid;
+  margin: 0 auto 31rpx;
+  position: relative;
+}
+.company-cx{
+  width: 100%;
+  height: 145rpx;
+  border-bottom: 1rpx #acadab solid;
+}
+.company-img{
+  width: 115rpx;
+  height: 115rpx;
+  float: left;
+  margin: 14rpx 21rpx 0 18rpx;
+}
+.com-list{
+  width: 431rpx;
+  height: 80rpx;
+  display: block;
+  float: left;  
+}
+.company-name{
+  font-size: 30rpx;
+  margin-top: 40rpx;
+}
+.com-address{
+  display: block;
+  height: auto;
+  font-size: 20rpx;
+}
+.com-address image{
+  width: 24rpx;
+  height: 31rpx;
+}
+.com-price{
+  position: absolute;
+  width: 64rpx;
+  height: 36rpx;
+  background: #f76c41;
+  font-size: 21rpx;
+  text-align: center;
+  padding-top: 24rpx;
+  color: #fff;
+  top: -1rpx;
+  right: 24rpx;
+}
+.oper-com{
+  background: #f4f3f3;
+  width: 721rpx; 
+  height: 86rpx;
+  display: block;
+}
+.oper-com li{
+  height: 79rpx;
+  margin-top: 3rpx;
+  display: block;
+  width: 233rpx;
+  border-right: 1rpx #acadab solid;
+  float: left;
+  text-indent:48rpx;
+  font-size: 23rpx;
+  line-height: 79rpx; 
+}
+.oper-com li:last-child{
+  border-right: 0;
+}
+.oper-com li image{
+  width: 26rpx;
+  height: 26rpx;
+  margin-left: 16rpx;
+}

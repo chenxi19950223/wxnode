@@ -1,0 +1,218 @@
+/* pages/my/my.wxss */
+/* top bingo */
+page {  
+  background-color: #fbfcfa;  
+} 
+.top-cx{
+  width: 100%;
+  height: 87rpx;
+  background: #7cc361;
+  text-align: center;
+  line-height: 87rpx;
+  color: #fff;
+}
+/* top end */
+/* user bingo */
+.back-user{
+  width: 100%;
+  height: 325rpx;
+}
+.user-top{
+  width: 100%;
+  height: 223rpx;
+}
+.user-port{
+  border: 3rpx #ad8450 solid;
+  margin: 34rpx 32rpx 0 40rpx;
+  width: 152rpx;
+  height: 152rpx;
+  border-radius: 100%;
+  float: left;
+  text-align: center;
+  line-height: 152rpx;
+  background: #fff;
+  display: block;
+}
+.user-port-none{
+  display: none;
+}
+.user-name{
+  width: auto;
+  height: 223rpx;
+  float: left;
+  color: #fff;
+  font-size: 26rpx;
+}
+.user-name text{
+  display: block;
+  margin-top: 70rpx;
+}
+.user-name view{
+  font-size: 21rpx;
+  margin: 22rpx 0 0 0;
+}
+.user-name view image{
+  width: 31rpx;
+  height: 31rpx;
+  float: left;
+  display: block;
+}
+.user-name view text{
+  display: block;
+  float: left;
+  margin: 0;
+}
+.user-mes{
+  width: auto;
+  height: 223rpx;
+  float: right;
+}
+.bell{
+  width: 36rpx;
+  height: 35rpx;
+  margin-left: 195rpx;
+  margin-top: 22rpx;
+}
+.bell-icon{
+  width: 17rpx;
+  height: 17rpx;
+  display: block;
+  background: #f9c05c;
+  border-radius: 17rpx;
+  font-size: 10rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 17rpx;
+  margin: -40rpx 0 0 209rpx;
+}
+.address{
+  display: block;
+  width:248rpx;
+  height: 30rpx;
+  font-size: 20rpx;
+  color: #fff;
+  margin-top: 100rpx;
+}
+.user-bottom{
+  width: 100%;
+  height: 102rpx;
+  display: block;
+}
+.user-bottom li{
+  display: block;
+  width: 32%;
+  height: 100%;
+  background: rgba(0, 0, 0, .3);
+  float: left;
+  margin-right: 1%;
+  text-align: center;
+  color: #fff;
+}
+.user-bottom li text{
+  display: block;
+  font-size: 18rpx;
+  margin-top: 28rpx;
+}
+.user-bottom li span{
+  display: block;
+  font-size: 24rpx;
+  margin-top: 16rpx;
+}
+/* user end */
+
+/* money bingo */
+.money-my{
+  width: 100%;
+  height: 100rpx;
+  margin-top: 35rpx;
+  border: 1rpx #ececec solid;
+}
+.money-my image{
+  width: 34rpx;
+  height: 37rpx;
+  margin: 29rpx 0 0 20rpx;
+  float: left;
+}
+.money-my text{
+  font-size: 30rpx;
+  margin: 30rpx 0 0 30rpx;
+  float: left;
+}
+.money-my span{
+  float: right;
+  margin: 30rpx 21rpx 0 0;
+  color: #939292;
+}
+.wallet{
+  display: block;
+  width: 100%;
+  height: 125rpx;
+  border: 1rpx #ececec solid;
+  border-top: 0rpx;
+}
+.wallet li{
+  width: 25%;
+  float: left;
+  display: block;
+  height: 100%;
+  text-align: center;
+}
+.wallet li text{
+  height: 21rpx;
+  width: 100%;
+  display: block;
+  font-size: 21rpx;
+  color: #828282;
+  margin: 33rpx 0 17rpx 0;
+}
+.wallet li span{
+  height: 22rpx;
+  width: 100%;
+  display: block;
+  font-size: 22rpx;
+  color: #828282;
+}
+/* money end */
+
+/* mall bingo */
+.mall{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 30rpx;
+}
+.mall li{
+  width: 100%;
+  height: 100rpx;
+  border-top: 1rpx #ececec solid; 
+  display: block;
+}
+.mall li:last-child{
+  border-bottom: 1rpx #ececec solid;
+}
+.mall li image{
+  width: 40rpx;
+  height: 40rpx;
+  margin: 32rpx 25rpx 0 20rpx;
+  float: left;
+}
+.mall li text{
+  width: 300rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  display: block;
+  float: left;
+  margin-top: 32rpx;
+}
+.mall li span{
+  width: auto;
+  height: auto;
+  font-size: 28rpx;
+  display: block;
+  float: right;
+  margin: 32rpx 21rpx 0 0;
+  color: #ececec;
+
+}
+/* mall end */

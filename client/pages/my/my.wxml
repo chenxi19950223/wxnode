@@ -1,0 +1,146 @@
+<!--pages/my/my.wxml-->
+<!-- top bingo -->
+<view
+class='top-cx'
+>
+我的
+</view>
+<!-- top end -->
+
+<!-- user bingo -->
+<view
+class='back-user'
+style="background: url('../../img/24.jpg')"
+>
+  <view
+  class='user-top'
+  >
+    <image
+    src="{{head_portrait}}" 
+    class="user-port {{!uaerId?'user-port-none':''}}"
+     bindtap='aaaaaa'
+    ></image>
+    <text
+    class="user-port {{uaerId?'user-port-none':''}}"
+   
+    >请登录</text>
+    <view
+    class='user-right'
+    >
+      <view
+      class='user-name'
+      >
+        <text
+        bindtap='logoin'
+        >
+        {{userName}}
+        </text>
+        <view>
+          <image 
+          src='../../img/26.png'
+          ></image>
+          <text
+          >{{admin}}
+          </text>
+        </view>
+      </view>
+      <view
+      class='user-mes'
+      >
+        <image 
+        class="bell"
+        src='../../img/23.png'
+        >
+        </image>
+        <text
+        class='bell-icon'
+        >
+        3
+        </text>
+        <text
+        class="address"
+        bindtap='service'
+        >
+        账户管理，服务地址 >
+        </text>
+      </view>
+    </view>
+  </view>
+  <ul
+  class='user-bottom'
+  >
+  <li>
+    <text>{{pepople}}</text>
+    <span>关注的个人</span>
+  </li>
+  <li>
+    <text>{{merchants}}</text>
+    <span>关注的商家</span>
+  </li>
+  <li>
+    <text>{{record}}</text>
+    <span>日常记录</span>
+  </li>
+  </ul>
+</view>
+<!-- user end -->
+
+<!-- money bingo -->
+<view 
+class='money-my'
+>
+<image src='../../img/27.png'></image>
+<text>我的钱包</text>
+<span>></span>
+</view>
+<ul
+class='wallet'
+>
+<li>
+  <text>{{balance}}</text>
+  <span>我的余额</span>
+</li>
+<li>
+  <text>{{preferential}}</text>
+  <span>优惠券</span>
+</li>
+<li>
+  <text>{{members}}</text>
+  <span>会员卡</span>
+</li>
+<li>
+  <text>{{top_up}}</text>
+  <span>充值</span>
+</li>
+</ul>
+<!-- money end -->
+
+<!-- mall bingo -->
+<ul
+class="mall"
+>
+<li>
+<image src='../../img/28.png'></image>
+<text>积分商城</text>
+<span>></span>
+</li>
+<li>
+<image src='../../img/29.png'></image>
+<text>积分商城</text>
+<span>></span>
+</li>
+<li>
+<image src='../../img/30.png'></image>
+<text>积分商城</text>
+<span>></span>
+</li>
+<li>
+<image src='../../img/31.png'></image>
+<text>积分商城</text>
+<span>></span>
+</li>
+</ul>
+<!-- mall end -->
+<button
+bindtap='rom_login'
+>退出登录</button>

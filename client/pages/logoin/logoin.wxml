@@ -1,0 +1,154 @@
+<!--pages/ways/ways.wxml-->
+<!-- top bingo -->
+<view
+class='top-cx'
+bindtap='top-cx'
+>
+登录
+</view>
+<!-- top end -->
+<!-- portrait bingo -->
+<image 
+src='../../img/25.jpg'
+class='portrait-logoin'
+></image>
+<!-- portrait end -->
+
+<!-- logoin bingo -->
+<view
+class="{{showView?'show':'hide'}}"
+>
+<view
+class='username-logoin'
+>
+<image src='../../img/32.png'></image>
+<input
+type='text'
+placeholder='请输入账号!'
+bindinput='logoin_name'
+placeholder-style=''
+cursor=''
+></input>
+</view>
+<view
+class='username-logoin'
+>
+<image src='../../img/33.png'></image>
+<input
+type='text'
+placeholder='请输入密码!'
+bindinput='logoin_pass'
+password='ture'
+placeholder-style=''
+cursor=''
+></input>
+</view>
+
+<button
+class='logoin-cx'
+bindtap='logoin'
+>
+  登录
+</button>
+<button
+class='reg-go'
+bindtap='reggo'
+>
+前往注册
+</button>
+<text
+class='forgot-password'
+>
+忘记密码！
+</text>
+</view>
+<!-- logoin end -->
+
+<!-- reg bingo -->
+<view
+class="{{showView?'hide':'show'}}"
+>
+<view
+class='username-logoin'
+>
+<image src='../../img/32.png'></image>
+<input
+type='number'
+placeholder='请输入账号!'
+placeholder-style=''
+bindinput='userName_reg'
+maxlength='15'
+cursor=''
+></input>
+</view>
+<view
+class='username-logoin'
+>
+<image src='../../img/33.png'></image>
+<input
+bindinput='password_reg'
+type='number'
+placeholder='请输入密码!'
+maxlength='20'
+password='ture'
+placeholder-style=''
+cursor=''
+></input>
+</view>
+<view
+class='username-logoin'
+>
+<image src='../../img/33.png'></image>
+<input
+type='number'
+placeholder='请再次输入密码!'
+maxlength='20'
+bindinput='passwords_reg'
+password='ture'
+placeholder-style=''
+cursor=''
+></input>
+</view>
+
+<button
+class='logoin-cx'
+bindtap='reg'
+>
+  注册
+</button>
+<button
+class='reg-go'
+bindtap='reggo'
+>
+前往登录
+</button>
+</view>
+<!-- reg end -->
+
+<!-- The bingo -->
+<view
+  class='the-logoin-hr'
+>
+  <text>
+    使用第三方登录
+  </text>
+  <hr/>
+</view>
+<view
+class='the-logoin'
+>
+<view>
+<image src='../../img/34.png'></image>
+<text>微博</text>
+</view>
+<view>
+<image src='../../img/35.png'></image>
+<text>QQ</text>
+</view>
+<view
+bindtap='wx_login'>
+<image src='../../img/36.png'></image>
+<text>微信</text>
+</view>
+</view>
+<!-- The end -->

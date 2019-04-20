@@ -1,0 +1,239 @@
+/* pages/ways/ways.wxss */
+page {  
+  background-color: #fbfcfa;  
+} 
+.top-cx{
+  width: 100%;
+  height: 65rpx;
+  background: #82c769;
+  padding-top:23rpx; 
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+/* top end */
+/* service-address bingo */
+.service-address{
+  width: 100%;
+  height: 325rpx;
+}
+.service-address div{
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: rgba(0, 0, 0, .6);
+  border-top: 1rpx #7ec465 solid;
+  margin-top: -2rpx; 
+  position: relative;
+}
+.service-address div image{
+  width: 194rpx;
+  height: 194rpx;
+  display: block;
+  border: 3rpx #5d9847 solid;
+  border-radius: 50%;
+  margin:37rpx auto 26rpx;
+  background:rgba(255, 255, 255, .7);
+}
+.service-address div view{
+  width: 310rpx;
+  height: 40rpx;
+  margin: 0 auto;
+}
+.service-address div view image{
+  width: 40rpx;
+  height: 40rpx;
+  border: 0;
+  border-radius: 0;
+  margin: 0 15rpx 0 0;
+  background: rgba(0, 0, 0, 0);
+  float: left;
+}
+.service-address div view text{
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  color: #fff;
+  float: left;
+}
+.service-address div b{
+  font-size: 34rpx;
+  color: #fff;
+  position: absolute;
+  right: 32rpx;
+  top: 30rpx;
+}
+/* service-address end */
+/* information bingo */
+.information-cx{
+  width: 716rpx;
+  height: auto;
+  margin: 35rpx auto 0;
+  display: block;
+}
+.information-cx li{
+  border: 1rpx #9b9999 solid;
+  border-top: 0;
+  display: block;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.information-cx li image:first-child{
+  width: 30rpx;
+  height: 36rpx;
+  float: left;
+  margin: 24rpx 25rpx 0 30rpx;
+
+}
+.information-cx li span{
+  width: 150rpx;
+  height: 86rpx;
+  line-height: 86rpx;
+  font-size: 24rpx;
+  display: block;
+  float: left;
+}
+.information-cx li text{
+  width: auto;
+  height: 86rpx;
+  display: block;
+  float: right;
+  line-height: 86rpx;
+  color: #958c8a;
+  font-size: 24rpx;
+}
+.information-cx li b{
+  width: auto;
+  height: 86rpx;
+  display: block;
+  float: right;
+  line-height: 86rpx;
+  color: #bf350f;
+  font-size: 24rpx;
+}
+.information-cx li image:nth-child(3){
+  width: 30rpx;
+  height: 30rpx;
+  float: right;
+  margin: 28rpx 18rpx 0 40rpx;
+}
+.information-cx li:first-child{
+  height: auto;
+  border-top: 1rpx #9b9999 solid;
+}
+.information-cx li textarea{
+  display: block;
+  float: left;
+  background: #f3f0f0;
+  width: 610rpx;
+  height: 184rpx;
+  margin: 0 30rpx 30rpx 30rpx;
+  padding: 18rpx;
+  overflow: hidden;
+}
+/* information end */
+/* 下拉列表-服务地址 bingo */
+.down_address{
+  width: 716rpx;
+  height: auto;
+  border: 1rpx #9b9999 solid;
+  border-top: 0;
+  border-bottom: 1rpx #9b9999 solid;
+  padding: 20rpx 0;
+}
+.address-choose{
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 40rpx;
+  padding-top: 40rpx;
+  color: #42b13f;
+}
+.add-sheng{
+  width: 660rpx;
+  margin: 0 auto;
+  border-radius: 20rpx;
+  border: 1rpx #000 solid;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}
+.add-none{
+  display: none;
+}
+.add-sheng text{
+  float: left;
+  height: 40rpx;
+  width: 60%;
+  margin-left:20rpx;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #958c8a; 
+}
+.add-sheng image{
+  width: 30rpx;
+  height: 30rpx;
+  float: right;
+  margin: 5rpx 20rpx 0 0;
+}
+.add-sheng scroll-view{
+  float: left;
+  height: 100rpx;
+  width: 100%;
+}
+.add-sheng view{
+  background: #ececec;
+  height: 40rpx;
+  float: left;
+  width: 100%;
+  margin-top: 3rpx;
+  font-size: 28rpx;
+  color: #958c8a;
+  text-align: center; 
+}
+.down_address input{
+  width: 650rpx;
+  height: 40rpx;
+  border: 1rpx #464946 solid;
+  display: block;
+  margin: 20rpx auto;
+  border-radius: 20rpx;
+  font-size: 28rpx;
+  color: #5a615a;
+  padding-left:10rpx; 
+}
+.down_address button{
+  width: 660rpx;
+  background: #ff9d04;
+  height: 60rpx;
+  border-radius: 20rpx;
+  font-size: 28rpx;
+  color: #fff;
+  line-height: 60rpx;
+  margin-bottom: 40rpx;
+}
+/* 下拉列表-服务地址 end */
+/* 下拉列表-户型 bingo */
+.door-model{
+  width: 90%;
+  height: 150rpx;
+  font-size: 30rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+/* 下拉列表-户型 end */
+/* 时间 */
+.calendar_title{
+  width: 70%;
+  margin: 10rpx auto; 
+  justify-content: space-between;
+  font-size: 20pt;
+  color: #fff;
+  }
+.calendar_title .icon image{
+  width: 60rpx; 
+  height: 60rpx;
+  margin: 5rpx auto;
+  }
+/* 时间 */

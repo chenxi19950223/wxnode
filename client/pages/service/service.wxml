@@ -1,0 +1,188 @@
+<!--pages/ways/ways.wxml-->
+<!-- top bingo -->
+<view
+class='top-cx'
+bindtap='top-cx'
+>
+家务整理
+</view>
+<!-- top end -->
+<!-- service-address bingo -->
+<view 
+class='service-address'
+style="background: url('../../img/37.jpg')"
+>
+<div>
+  <image
+    src='../../img/38.png'
+  ></image>
+  <view>
+    <image src='../../img/39.png'></image>
+    <text>点击上传服务</text>
+  </view>
+  <b>+</b>
+</div>
+</view>
+<!-- service-address end -->
+<!-- information bingo -->
+<ul
+class="information-cx"
+>
+  <li
+  bindtap='address_ways'
+  >
+    <image src='../../img/41.png'></image>
+    <span>服务地址</span>
+    <image 
+    src='../../img/45.png'
+    ></image>
+    <text>{{province}}省{{city}}市{{county}}区</text>
+    
+  </li>
+  <view
+    class="down_address {{address_ways?'':'add-none'}}"
+  >
+  <view
+  class='address-choose'
+  >{{province}}省{{city}}市{{county}}（区）县</view>
+  <view 
+  class='add-sheng'
+  bindtap='add_sheng'
+  >
+    <text>{{add_p}}</text>
+    <image src='../../img/46.png'></image>
+    <scroll-view
+     scroll-y
+    class="{{sheng?'':'add-none'}}"
+    >
+    <view 
+    wx:for="{{add_province}}"
+    wx:key='{{index}}'
+    
+    bindtap='coose_province'
+    data-province='{{item}}'
+    >{{item}}</view>
+    </scroll-view>
+    
+  </view>
+  <view 
+  class='add-sheng'
+  bindtap='add_shi'
+  >
+    <text>{{add_c}}</text>
+    <image src='../../img/46.png'></image>
+    <scroll-view
+    scroll-y
+    class="{{shi?'':'add-none'}}"
+    >
+    <view 
+    wx:for="{{add_city}}"
+    wx:key='{{index}}'
+    bindtap='coose_city'
+    data-city='{{item}}'
+    >{{item}}</view>
+    </scroll-view>
+    
+  </view>
+  <view 
+  class='add-sheng'
+  bindtap='add_qu'
+  >
+    <text>{{add_o}}</text>
+    <image src='../../img/46.png'></image>
+    <scroll-view
+     scroll-y
+    class="{{qu?'':'add-none'}}"
+    >
+    <view 
+    wx:for="{{add_county}}"
+    wx:key='{{index}}'
+    class="{{qu?'':'add-none'}}"
+    bindtap='coose_county'
+    data-county='{{item}}'
+    >{{item}}</view>
+    </scroll-view>
+    
+  </view>
+  <input
+  placeholder='请输入详细地址'
+  ></input>
+  <button
+  bindtap='address_is'
+  data-shi='{{year}}'
+  data-xian='{{month}}'
+  data-qu='{{day}}'
+  >确定</button>
+  </view>
+  <li
+  bindtap='model_d'
+  >
+    <image src='../../img/40.png'></image>
+    <span>户型</span>
+    <image src='../../img/45.png'></image>
+    <text>{{vmodel}}</text>
+  </li>
+  <picker-view
+   indicator-style="height: 100px;"
+  class="down_address {{model_d?'':'add-none'}}"
+  bindchange='door_model'
+  value="{{value}}"
+  >
+  <picker-view-column
+  class='door-model'
+  >
+  <view
+  wx:for="{{model}}"
+  wx:key='{{index}}'
+  data-model='{{item}}'
+  >{{item}}</view>
+  </picker-view-column>
+  </picker-view>
+  <li
+  bindtap='model_m'
+  >
+    <image src='../../img/42.png'></image>
+    <span>平米</span>
+    <image src='../../img/45.png'></image>
+    <text>{{vmeters}}平米</text>
+    
+  </li>
+  <view
+  class="down_address {{model_m?'':'add-none'}}"
+  >
+  <input
+  placeholder='请输入房间大小'
+  bindinput ="meters"
+  maxlength='5'
+  type='number'
+  ></input>
+  <button
+  bindtap='square_meters'
+  >确定</button>
+  </view>
+  <li
+  bindtap='calendar'
+  
+  >
+    <image src='../../img/43.png'></image>
+    <span>服务时间</span>
+    <image src='../../img/45.png'></image>
+    
+    <text>{{lunarMonth}}{{day}}日</text>
+  </li>
+  <view
+  class="down_address {{calendar?'':'add-none'}}"
+  >
+  <calendar 
+   weeks-type="cn"
+   days-color="{{dayStyle}}"
+   binddayClick="dayClick"
+ />
+  </view>
+  <li>
+    <image src='../../img/44.png'></image>
+    <span>服务型详情</span>
+    <textarea></textarea>
+  </li>
+</ul>
+<!-- information end -->

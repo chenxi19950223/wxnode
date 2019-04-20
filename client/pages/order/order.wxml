@@ -1,0 +1,289 @@
+<!--pages/order/order.wxml-->
+<!-- top bingo -->
+<view
+class='top-cx'
+bindtap='top-cx'
+>
+<view
+
+>
+订单
+</view>
+<image 
+src='../../img/15.jpg'
+>
+</image>
+</view>
+<!-- top end -->
+<!-- list bingo -->
+<view
+class='order-cx'
+>
+<view
+class="order-all {{arr==1?'back':''}}"
+bindtap='all'
+data-info='1'
+bindtap='back'
+>
+全部
+</view>
+<view
+class="order-complete {{arr==2?'back':''}}"
+data-info='2'
+bindtap='back'
+>
+已完成
+</view>
+<view
+class="order-unfi {{arr==3?'back':''}}"
+data-info='3'
+bindtap='back'
+>
+未完成
+</view>
+</view>
+<!-- list end -->
+
+<!-- dateils bingo -->
+<view
+class='order-details'
+>
+  <view
+  class='company-cx'
+  >
+    <image
+    class='company-img'
+    src='../../img/18.jpg'
+    >
+    </image>
+    <view
+      class='com-list'
+    >
+      <view
+      class='company-name'
+      >
+      家家净家政有限责任公司
+      </view>
+      <view 
+      class='com-address'
+      >
+      <image src='../../img/16.jpg'></image>
+      太原市小店区平阳路大马村
+      </view>
+    </view>
+    <view
+    class='com-price'
+    >
+    ￥68
+    </view>
+  </view>
+    <ul 
+    class='oper-com'
+    >
+      <li><a>联系商家</a><image src='../../img/20.jpg'></image></li>
+      <li><a>支付订单</a><image src='../../img/21.jpg'></image></li>
+      <li><a>取消订单</a><image src='../../img/22.jpg'></image></li>
+    </ul>
+</view>
+<view
+class='order-details'
+>
+  <view
+  class='company-cx'
+  >
+    <image
+    class='company-img'
+    src='../../img/17.jpg'
+    >
+    </image>
+    <view
+      class='com-list'
+    >
+      <view
+      class='company-name'
+      >
+        友好家政有限责任公司
+      </view>
+      <view 
+      class='com-address'
+      >
+      <image src='../../img/16.jpg'></image>
+      太原市小店区平阳路大马村
+      </view>
+    </view>
+    <view
+    class='com-price'
+    >
+    ￥88
+    </view>
+  </view>
+    <ul 
+    class='oper-com'
+    >
+      <li><a>联系商家</a><image src='../../img/20.jpg'></image></li>
+      <li><a>支付订单</a><image src='../../img/21.jpg'></image></li>
+      <li><a>取消订单</a><image src='../../img/22.jpg'></image></li>
+    </ul>
+</view>
+<view
+class='order-details'
+>
+  <view
+  class='company-cx'
+  >
+    <image
+    class='company-img'
+    src='../../img/19.jpg'
+    >
+    </image>
+    <view
+      class='com-list'
+    >
+      <view
+      class='company-name'
+      >
+      舒服家家政有限责任公司
+      </view>
+      <view 
+      class='com-address'
+      >
+      <image src='../../img/16.jpg'></image>
+      太原市小店区平阳路大马村
+      </view>
+    </view>
+    <view
+    class='com-price'
+    >
+    ￥98
+    </view>
+  </view>
+    <ul 
+    class='oper-com'
+    >
+      <li><a>联系商家</a><image src='../../img/20.jpg'></image></li>
+      <li><a>支付订单</a><image src='../../img/21.jpg'></image></li>
+      <li><a>取消订单</a><image src='../../img/22.jpg'></image></li>
+    </ul>
+</view>
+
+<view
+class='order-details'
+>
+  <view
+  class='company-cx'
+  >
+    <image
+    class='company-img'
+    src='../../img/18.jpg'
+    >
+    </image>
+    <view
+      class='com-list'
+    >
+      <view
+      class='company-name'
+      >
+      家家净家政有限责任公司
+      </view>
+      <view 
+      class='com-address'
+      >
+      <image src='../../img/16.jpg'></image>
+      太原市小店区平阳路大马村
+      </view>
+    </view>
+    <view
+    class='com-price'
+    >
+    ￥68
+    </view>
+  </view>
+    <ul 
+    class='oper-com'
+    >
+      <li><a>联系商家</a><image src='../../img/20.jpg'></image></li>
+      <li><a>支付订单</a><image src='../../img/21.jpg'></image></li>
+      <li><a>取消订单</a><image src='../../img/22.jpg'></image></li>
+    </ul>
+</view>
+<view
+class='order-details'
+>
+  <view
+  class='company-cx'
+  >
+    <image
+    class='company-img'
+    src='../../img/18.jpg'
+    >
+    </image>
+    <view
+      class='com-list'
+    >
+      <view
+      class='company-name'
+      >
+      家家净家政有限责任公司
+      </view>
+      <view 
+      class='com-address'
+      >
+      <image src='../../img/16.jpg'></image>
+      太原市小店区平阳路大马村
+      </view>
+    </view>
+    <view
+    class='com-price'
+    >
+    ￥68
+    </view>
+  </view>
+    <ul 
+    class='oper-com'
+    >
+      <li><a>联系商家</a><image src='../../img/20.jpg'></image></li>
+      <li><a>支付订单</a><image src='../../img/21.jpg'></image></li>
+      <li><a>取消订单</a><image src='../../img/22.jpg'></image></li>
+    </ul>
+</view>
+<view
+class='order-details'
+>
+  <view
+  class='company-cx'
+  >
+    <image
+    class='company-img'
+    src='../../img/18.jpg'
+    >
+    </image>
+    <view
+      class='com-list'
+    >
+      <view
+      class='company-name'
+      >
+      家家净家政有限责任公司
+      </view>
+      <view 
+      class='com-address'
+      >
+      <image src='../../img/16.jpg'></image>
+      太原市小店区平阳路大马村
+      </view>
+    </view>
+    <view
+    class='com-price'
+    >
+    ￥68
+    </view>
+  </view>
+    <ul 
+    class='oper-com'
+    >
+      <li><a>联系商家</a><image src='../../img/20.jpg'></image></li>
+      <li><a>支付订单</a><image src='../../img/21.jpg'></image></li>
+      <li><a>取消订单</a><image src='../../img/22.jpg'></image></li>
+    </ul>
+</view>
+<!-- details end -->

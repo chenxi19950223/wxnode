@@ -1,0 +1,81 @@
+<!--index.wxml-->
+<!-- top bingo -->
+<view class='top-pp'>
+<view 
+class='ditu'
+bindtap='getrig'
+>
+<image 
+src="../../img/2.jpg"
+class='img1'
+></image>
+<text 
+class='dizhi'
+>{{the_current_city}}</text>
+</view>
+<text
+class='title-cx'
+>拍拍家洁</text>
+<image 
+src='../../img/10.jpg'
+class='img2'
+></image>
+</view>
+<!-- top end -->
+<image 
+src='../../img/11.jpg'
+class='prize-cx'
+></image>
+
+<!-- service bingo -->
+<view 
+class='cla-cx'
+>
+  <view>
+    <div>
+      <image src='../../img/12.jpg'></image>
+      <text>家务整理</text>
+    </div>
+    <div>
+      <image src='../../img/6.jpg'></image>
+      <text>家电维修</text>
+    </div>
+  </view>
+  
+  <view>
+    <div>
+      <image src='../../img/3.jpg'></image>
+      <text>家具保养</text>      
+    </div>
+    <div>
+      <image src='../../img/7.jpg'></image>
+      <text>玻璃清洁</text>
+    </div>
+  </view>
+  
+  <view>
+    <div>
+      <image src='../../img/5.jpg'></image>
+      <text>新居开荒</text>
+    </div>
+    <div>
+      <image src='../../img/13.jpg'></image>
+      <text>更多服务</text>
+    </div>
+  </view>
+</view>
+<!-- service end -->
+
+<!-- host bingo -->
+<view class='host-cx'>
+  <view>
+    <image src='../../img/huo.jpg'></image>
+    <text>本周精彩活动</text>
+  </view>
+  <view>
+    <image src='../../img/4.jpg'></image>
+    <text>更多</text>
+  </view>
+</view>
+
+<!-- host end -->
